@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042D67712618355700BBB5B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D67702618355700BBB5B8 /* AppDelegate.swift */; };
+		042D67782618355700BBB5B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042D67762618355700BBB5B8 /* Main.storyboard */; };
+		042D677A2618355A00BBB5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042D67792618355A00BBB5B8 /* Assets.xcassets */; };
+		042D677D2618355A00BBB5B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042D677B2618355A00BBB5B8 /* LaunchScreen.storyboard */; };
+		042D67A426183EEA00BBB5B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042D67A326183EEA00BBB5B8 /* Images.xcassets */; };
+		042D67AD2618400500BBB5B8 /* WYImage+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D67AC2618400500BBB5B8 /* WYImage+Assets.swift */; };
+		042D67B0261842C400BBB5B8 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D67AF261842C400BBB5B8 /* DiscoveryViewController.swift */; };
+		042D67B4261842D400BBB5B8 /* ShopcartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D67B3261842D400BBB5B8 /* ShopcartViewController.swift */; };
+		042D67B7261842E500BBB5B8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D67B6261842E500BBB5B8 /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042D676D2618355700BBB5B8 /* WYTwilight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYTwilight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042D67702618355700BBB5B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042D67772618355700BBB5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042D67792618355A00BBB5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042D677C2618355A00BBB5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042D677E2618355A00BBB5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042D67A326183EEA00BBB5B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		042D67AC2618400500BBB5B8 /* WYImage+Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "WYImage+Assets.swift"; path = "WYTwilight/WYImage+Assets.swift"; sourceTree = SOURCE_ROOT; };
+		042D67AF261842C400BBB5B8 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		042D67B3261842D400BBB5B8 /* ShopcartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopcartViewController.swift; sourceTree = "<group>"; };
+		042D67B6261842E500BBB5B8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042D676A2618355700BBB5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042D67642618355700BBB5B8 = {
+			isa = PBXGroup;
+			children = (
+				042D676F2618355700BBB5B8 /* WYTwilight */,
+				042D676E2618355700BBB5B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042D676E2618355700BBB5B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042D676D2618355700BBB5B8 /* WYTwilight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042D676F2618355700BBB5B8 /* WYTwilight */ = {
+			isa = PBXGroup;
+			children = (
+				042D67702618355700BBB5B8 /* AppDelegate.swift */,
+				042D67A726183FA600BBB5B8 /* Classes */,
+				042D67A626183F8F00BBB5B8 /* Resources */,
+			);
+			path = WYTwilight;
+			sourceTree = "<group>";
+		};
+		042D67A626183F8F00BBB5B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				042D67762618355700BBB5B8 /* Main.storyboard */,
+				042D67792618355A00BBB5B8 /* Assets.xcassets */,
+				042D67A326183EEA00BBB5B8 /* Images.xcassets */,
+				042D677B2618355A00BBB5B8 /* LaunchScreen.storyboard */,
+				042D677E2618355A00BBB5B8 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		042D67A726183FA600BBB5B8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				042D67AF261842C400BBB5B8 /* DiscoveryViewController.swift */,
+				042D67B3261842D400BBB5B8 /* ShopcartViewController.swift */,
+				042D67B6261842E500BBB5B8 /* ProfileViewController.swift */,
+				042D67AB26183FDF00BBB5B8 /* Extension */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		042D67AB26183FDF00BBB5B8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				042D67AC2618400500BBB5B8 /* WYImage+Assets.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042D676C2618355700BBB5B8 /* WYTwilight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042D67812618355A00BBB5B8 /* Build configuration list for PBXNativeTarget "WYTwilight" */;
+			buildPhases = (
+				042D67692618355700BBB5B8 /* Sources */,
+				042D676A2618355700BBB5B8 /* Frameworks */,
+				042D676B2618355700BBB5B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYTwilight;
+			productName = WYTwilight;
+			productReference = 042D676D2618355700BBB5B8 /* WYTwilight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042D67652618355700BBB5B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					042D676C2618355700BBB5B8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 042D67682618355700BBB5B8 /* Build configuration list for PBXProject "WYTwilight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042D67642618355700BBB5B8;
+			productRefGroup = 042D676E2618355700BBB5B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042D676C2618355700BBB5B8 /* WYTwilight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042D676B2618355700BBB5B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042D677D2618355A00BBB5B8 /* LaunchScreen.storyboard in Resources */,
+				042D67A426183EEA00BBB5B8 /* Images.xcassets in Resources */,
+				042D677A2618355A00BBB5B8 /* Assets.xcassets in Resources */,
+				042D67782618355700BBB5B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042D67692618355700BBB5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042D67AD2618400500BBB5B8 /* WYImage+Assets.swift in Sources */,
+				042D67B0261842C400BBB5B8 /* DiscoveryViewController.swift in Sources */,
+				042D67B7261842E500BBB5B8 /* ProfileViewController.swift in Sources */,
+				042D67B4261842D400BBB5B8 /* ShopcartViewController.swift in Sources */,
+				042D67712618355700BBB5B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		042D67762618355700BBB5B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042D67772618355700BBB5B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042D677B2618355A00BBB5B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042D677C2618355A00BBB5B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042D677F2618355A00BBB5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		042D67802618355A00BBB5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042D67822618355A00BBB5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYTwilight/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.young.WYTwilight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042D67832618355A00BBB5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYTwilight/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.young.WYTwilight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042D67682618355700BBB5B8 /* Build configuration list for PBXProject "WYTwilight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042D677F2618355A00BBB5B8 /* Debug */,
+				042D67802618355A00BBB5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042D67812618355A00BBB5B8 /* Build configuration list for PBXNativeTarget "WYTwilight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042D67822618355A00BBB5B8 /* Debug */,
+				042D67832618355A00BBB5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042D67652618355700BBB5B8 /* Project object */;
+}
